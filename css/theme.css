@@ -1,3 +1,13 @@
+@import url(./reset.css);
+
+:root {
+    --timberwolf: #dad5d5ff;
+    --timberwolf-2: #d9cdcdff;
+    --licorice: #1e191aff;
+    --silver: #ada9a9ff;
+    --jet: #302f2fff;
+}
+
 nav ol{ 
     list-style-type: decimal;
 }

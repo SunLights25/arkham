@@ -1,0 +1,11 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{ 
+    font: 2.0rem;
+    margin: 1;
+    letter-spacing: 0.5rem;
+}
