@@ -8,4 +8,5 @@ body{
     font: 2.0rem;
     margin: 1;
     letter-spacing: 0.5rem;
+    background-image: url(../asset/cover-batman.jpg);
 }
