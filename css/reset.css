@@ -1,14 +1,14 @@
-;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Oswald:wght@200..700&family=Satisfy&display=swap');
 
 html{
-    font-size: 100%;
+    font-size: 80%;
     box-sizing: border-box;
     scroll-behavior: smooth; /*différence avec auto?*/
 }
 
 body{ 
     font: 2.0rem;
-    margin: 1;
-    letter-spacing: 0.5rem;
+    margin: 2;
+    letter-spacing: 0.2rem;
     background-image: url(../asset/cover-batman.jpg);
 }
