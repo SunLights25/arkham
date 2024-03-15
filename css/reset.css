@@ -13,4 +13,6 @@ body{
     font-weight: 220;
     letter-spacing: 0.1rem;
     background-image: url(../asset/cover-batman.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
