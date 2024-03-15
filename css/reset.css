@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Oswald:wght@200..700&family=Satisfy&display=swap');
 
 html{
-    font-size: 80%;
+    font-size: 70%;
     box-sizing: border-box;
     scroll-behavior: smooth; /*différence avec auto?*/
 }
@@ -17,3 +17,28 @@ body{
     background-attachment: fixed;
 }
 
+*, /*pourquoi?*/
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
