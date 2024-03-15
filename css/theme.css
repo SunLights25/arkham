@@ -29,4 +29,14 @@ div.picture img{
 
 nav ol{ 
     list-style-type: decimal;
+    line-height: 2rem;
+    padding: 1.0rem ;
+    padding-left: 1rem;
+    color: var(--licorice);
+}
+
+header h1, section h2, nav h2{
+    font-weight: normal;
+    line-height: 3rem;
+    font-size: 3rem;
 }
