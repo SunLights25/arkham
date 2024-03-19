@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Oswald:wght@200..700&family=Satisfy&display=swap');
 
-html{
+html {
     font-size: 70%;
     box-sizing: border-box;
-    scroll-behavior: smooth; /*différence avec auto?*/
+    background:linear-gradient( to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%), 
+    url(../asset/cover-batman.jpg)no-repeat fixed center center / cover;
+    scroll-behavior: smooth;
+    /*différence avec auto?*/
 }
 
-body{ 
+body {
     font: 1.7rem "Oswald", sans-serif;
     margin: 1;
     line-height: 1.5;
     font-weight: 220;
     letter-spacing: 0.1rem;
-    background-image: url(../asset/cover-batman.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 140rem;
+  
 }
 
-*, /*pourquoi?*/
+*,
+/*pourquoi?*/
 *::before,
 *::after {
     margin: 0;
@@ -40,6 +41,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
